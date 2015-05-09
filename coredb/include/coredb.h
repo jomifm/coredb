@@ -1,0 +1,24 @@
+#include <db/metadata/metadatatabs.h>
+#include <db/metadata/metadatatable.h>
+#include <db/metadata/metadatarow.h>
+#include <db/metadata/metadatacolumn.h>
+#include <db/manager/sqlfactory.h>
+#include <db/manager/dbmanager.h>
+#include <db/manager/dbmanager.h>
+#include <db/serializable/serializableobject.h>
+
+#include <xml/mainserialize.h>
+#include <xml/deserializexml.h>
+#include <xml/deserializexmlhandler.h>
+#include <xml/serializexml.h>
+#include <xml/xmlnode.h>
+#include <xml/data/boolserialize.h>
+#include <xml/data/datavariantserialize.h>
+#include <xml/data/intserialize.h>
+#include <xml/data/stringserialize.h>
+#include <xml/data/variantserialize.h>
+#include <xml/data/vectorcolumnserialize.h>
+#include <xml/data/vectorrowserialize.h>
+#include <xml/data/vectorserialize.h>
+#include <xml/data/vectorstringserialize.h>
+#include <xml/data/vectortableserialize.h>
